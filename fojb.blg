@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'fojb.blg'
+[73] biber:340> INFO - === lun feb 16, 2026, 19:18:08
+[91] Biber.pm:419> INFO - Reading 'fojb.bcf'
+[152] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[166] bbl.pm:660> INFO - Writing 'fojb.bbl' with encoding 'UTF-8'
+[166] bbl.pm:763> INFO - Output to fojb.bbl
+[166] Biber.pm:131> WARN - The file 'fojb.bcf' does not contain any citations!
+[166] Biber.pm:133> INFO - WARNINGS: 1

@@ -1,0 +1,70 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{referencias.bib} %Import the bibliography file
+\usepackage{physics}
+\usepackage{hyperref}
+\usetheme{Madrid}
+
+\title{First Order Jet Bundles.}
+\author{Ángel Blasco Muñoz}
+\institute{Escuela Internacional de Doctorado, Universidad Nacional de Educación a Distancia (UNED), España.}
+\date{16 de febrero de 2026}
+% Logo only on title page
+\titlegraphic{
+    \includegraphics[width=3cm]{images/uned_logo_eiduned.png}
+}
+%The next block of commands puts the table of contents at the 
+%beginning of each section and highlights the current section:
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Contents.}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+\begin{document}
+
+%----------------------------------------
+\begin{frame}
+  \titlepage
+\end{frame}
+%---------------------------------------------------------
+
+\begin{frame}[allowframebreaks]{References.} %allowframebreaks permite mostrar las referencias en varias slides si hay muchas referencias que mostrar
+\printbibliography %Prints bibliography
+\end{frame}
+
+%----------------------------------------
+\begin{frame}
+\frametitle{Contenidos.}
+\tableofcontents
+\end{frame}
+%----------------------------------------
+\section{First Order Jets.}
+%---------------------------------------
+\begin{frame}{First Order Jets.}
+La 
+\end{frame}
+%----------------------------------------
+
+\section{Prolongations of Morphisms.}
+%---------------------------------------------------------
+\begin{frame}{Prolongations of Morphisms.}
+Un 
+\end{frame}
+
+%----------------------------------------
+
+%----------------------------------------
+\begin{frame}
+\begin{center}
+	END.
+\end{center}
+\end{frame}
+%----------------------------------------
+\end{document}
