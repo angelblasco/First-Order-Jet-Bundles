@@ -49,11 +49,11 @@
 \section{First Order Jets.}
 %---------------------------------------
 \begin{frame}{First Order Jets.}
-For this section and next please refer to \cite{saunders_geometry_1989} for further details. 
+For this section and the following, please refer to \cite{saunders_geometry_1989} for further details. 
 \end{frame}
 %----------------------------------------
 \begin{frame}{First Order Jets.}
- Let $(E, \pi, M)$ be a bundle and let $p \in M$.\\
+ Let $(E, \pi, M)$ be a bundle, and let $p \in M$. \\
 \begin{definition}
  Define the local sections $\phi$, $\psi \in \Gamma_{p}(\pi)$ to be 1-equivalent at $p$ if $\phi(p)=\psi(p)$ and if, in some adapted coordinate systems $(x^{i},u^{\alpha})$ around $\phi(p)$,
  \[
@@ -64,6 +64,52 @@ For this section and next please refer to \cite{saunders_geometry_1989} for furt
 \begin{definition}
 The equivalence class containing $\phi$ is called \textit{1-jet of $\phi$ at $p$} and is denoted $j^{1}_{p}\phi$.
 \end{definition}
+\end{frame}
+%----------------------------------------
+\begin{frame}{First Order Jets.}
+\begin{definition}
+The \textit{first jet manifold of $\pi$} is the set:
+\[
+\{\: j^{1}_{p}\phi \: : \: p \in M, \, \phi \in \Gamma_{p}{\pi} \: \}
+\]
+and is denoted $J^{1}\pi$
+\end{definition}
+\pause
+\[
+\pi_{1}:J^{1}\pi \longrightarrow M
+\]
+\[
+j^{1}_{p}\phi \longmapsto p
+\]
+\[
+\pi_{1,0}:J^{1}\pi \longrightarrow E
+\]
+\[
+j^{1}_{p}\phi \longmapsto \phi(p)
+\]
+\end{frame}
+%----------------------------------------
+\begin{frame}{First Order Jets.}
+Let $(U, u)$ be an adapted coordinate system on $E$, where $u=(x^{i},u^{\alpha})$.
+\begin{definition}
+The \textit{induced coordinate system} $(U^{1},u^{1})$ on $J^{1}\pi$ is defined by
+\[
+U^{1}= \{\: j^{1}_{p}\phi \: : \: \phi(p) \in U \: \}
+\]
+\[
+u^{1}=(x^{i}, u^{\alpha},u^{\alpha}_{i})
+\]
+\end{definition}
+\pause
+\[
+x^{i}(j^{1}_{p}\phi)=x^{i}(p)
+\]
+\[
+u^{\alpha}(j^{1}_{p}\phi)=u^{\alpha}(\phi(p))
+\]
+\[
+u^{\alpha}_{i}(j^{1}_{p}\phi)=\frac{\partial \phi^{\alpha}}{\partial x^{i}}|_{p}
+\]
 \end{frame}
 %----------------------------------------
 \section{Prolongations of Morphisms.}
