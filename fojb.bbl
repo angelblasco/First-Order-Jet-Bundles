@@ -19,6 +19,57 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{leon_hamilton-jacobi_2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=863fdecd95a1ea46e2a597cdfac4e3ed}{%
+           family={León},
+           familyi={L\bibinitperiod},
+           given={Manuel\bibnamedelima de},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=992c5de3969d2278ee2f3bb4943dea99}{%
+           family={Prieto-Martínez},
+           familyi={P\bibinithyphendelim M\bibinitperiod},
+           given={Pedro\bibnamedelima Daniel},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=485ddaf93085864edc6b243e6197566a}{%
+           family={Román-Roy},
+           familyi={R\bibinithyphendelim R\bibinitperiod},
+           given={Narciso},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4586b2836073dd4334897280ae442b81}{%
+           family={Vilariño},
+           familyi={V\bibinitperiod},
+           given={Silvia},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b44ead089033e477e715ebd37c03297d}
+      \strng{fullhash}{5ab12f9e08b11bc49ef7396a24477c09}
+      \strng{bibnamehash}{b44ead089033e477e715ebd37c03297d}
+      \strng{authorbibnamehash}{b44ead089033e477e715ebd37c03297d}
+      \strng{authornamehash}{b44ead089033e477e715ebd37c03297d}
+      \strng{authorfullhash}{5ab12f9e08b11bc49ef7396a24477c09}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The geometric framework for the Hamilton-Jacobi theory developed in [14, 17, 39] is extended for multisymplectic ﬁrst-order classical ﬁeld theories. The Hamilton-Jacobi problem is stated for the Lagrangian and the Hamiltonian formalisms of these theories as a particular case of a more general problem, and the classical Hamilton-Jacobi equation for ﬁeld theories is recovered from this geometrical setting. Particular and complete solutions to these problems are deﬁned and characterized in several equivalent ways in both formalisms, and the equivalence between them is proved. The use of distributions in jet bundles that represent the solutions to the ﬁeld equations is the fundamental tool in this formulation. Some examples are analyzed and, in particular, the Hamilton-Jacobi equation for non-autonomous mechanical systems is obtained as a special case of our results.}
+      \field{eprinttype}{arxiv}
+      \field{journaltitle}{Journal of Mathematical Physics}
+      \field{langid}{english}
+      \field{number}{9}
+      \field{title}{Hamilton-Jacobi theory in multisymplectic classical field theories}
+      \field{volume}{58}
+      \verb{doi}
+      \verb 10.1063/1.5004260
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1504.02020
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1504.02020
+      \endverb
+      \keyw{Mathematical Physics,Mathematics - Mathematical Physics}
+    \endentry
     \entry{saunders_geometry_1989}{book}{}
       \name{author}{1}{}{%
         {{hash=52b3b63512d53e6fc2b05d3b29fd51dd}{%
